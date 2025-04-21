@@ -47,7 +47,7 @@ public class UberRobot
         _position = startPos;
 
         if (!field.setRobot(this)) {
-            throw new RuntimeException("Failed to bind the robot to the field.");
+            throw new RuntimeException("Failed to bind the uberrobot to the field.");
         }
 
         _field = field;
