@@ -123,7 +123,7 @@ public class UberRobot
 
         checkField();
 
-        MiddlePosition doorPos = new MiddlePosition(_position, direct);
+        MiddlePosition doorPos = new MiddlePosition(_position, direction);  // save both options
         AbstractDoor door = _field.door(doorPos);
 
         if (door instanceof AbstractDoorWithLock) {
