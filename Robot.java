@@ -34,7 +34,7 @@ public class UberRobot
 
     private void checkField() {
         if (_field == null) {
-            throw new NullPointerException("The robot does not belong to a field. It has been destroyed.");
+            throw new NullPointerException("The uberrobot does not belong to a field. It has been destroyed.");
         }
     }
 
