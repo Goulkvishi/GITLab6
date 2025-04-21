@@ -174,7 +174,7 @@ public class UberRobot
 
     // ------------------- Move the robot -----------------
 
-    public void makeMove(Direction direct) {
+    public void makeMoveTo(Direction direct) {
         if (amountOfCharge() > 0)
         {
             if (moveIsPossible(direct)) 
