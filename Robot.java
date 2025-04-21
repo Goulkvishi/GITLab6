@@ -110,7 +110,7 @@ public class UberRobot
                     if(!door.open()) return false;
                 }
 
-                reduceCharge(5);
+                reduceCharge(4);
 
                 fireRobotAction();
                 return true;
