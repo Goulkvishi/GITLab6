@@ -119,7 +119,7 @@ public class UberRobot
         return false;
     }
 
-    public boolean unlockDoor(Direction direct, String code){
+    public boolean unlockDoor(Direction direction, String code){
 
         checkField();
 
