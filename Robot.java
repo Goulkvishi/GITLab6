@@ -218,7 +218,7 @@ public class UberRobot
 
     private ArrayList<RobotActionListener> _listeners = new ArrayList<>();
     
-    public void addRobotActionListener(RobotActionListener l) {
+    public void addRobotActionsListener(RobotActionListener l) {
         _listeners.add(l);
     }
 
