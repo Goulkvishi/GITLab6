@@ -15,7 +15,7 @@ import java.util.ArrayList;
  * it determines on its own where it can walk; can use batteries
  * that are on the field
  */
-public class Robot
+public class UberRobot
 {
     // ------------------- Establishing connection with the game field -----------------
     private GameField _field;
