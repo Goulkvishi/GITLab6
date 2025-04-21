@@ -180,7 +180,7 @@ public class UberRobot
             if (moveIsPossible(direct)) 
             {
                 setPosition(position().next(direct));
-                reduceCharge(3);
+                reduceCharge(2);
 
                 fireRobotAction();
             }
