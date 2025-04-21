@@ -222,7 +222,7 @@ public class UberRobot
         _listeners.add(l);
     }
 
-    public void removeRobotActionListener(RobotActionListener l) {
+    public void removeRobotActionsListener(RobotActionListener l) {
         _listeners.remove(l);
     }
 
