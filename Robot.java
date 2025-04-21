@@ -60,7 +60,7 @@ public class UberRobot
 
         checkField();
 
-        if (outBattery == null || (outBattery.position() != null && !outBattery.position().equals(_position))) {
+        if (outBattery == null || (outBattery.position() != null || !outBattery.position().equals(_position))) {
             throw new IllegalStateException("The battery must be at the robot's position or outside the field.");
         }
 
