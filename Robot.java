@@ -185,7 +185,7 @@ public class UberRobot
                 fireRobotAction();
             }
             else {
-                reduceCharge(4);
+                reduceCharge(5);
 
                 Direction oppositeDirect = direct.opposite();
 
